@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of https://www.opnabio.com/.well-known/*
+host: https://www.opnabio.com
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+notes: No .well-known documents published. Opna Bio is a clinical-stage oncology
+  biopharmaceutical company with no public API or developer surface.
